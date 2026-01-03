@@ -1,7 +1,7 @@
-importScripts('https://rawgit.com/crossfilter/crossfilter/1.4.0-alpha.06/crossfilter.js',
+importScripts('https://cdnjs.cloudflare.com/ajax/libs/crossfilter2/1.4.8/crossfilter.min.js',
               'https://unpkg.com/reductio@0.6.3/reductio.min.js',
-              'https://unpkg.com/d3@3.5.17',
-              'https://unpkg.com/dc@2.1.3')
+              'https://unpkg.com/d3@3.5.17/d3.min.js',
+              'https://unpkg.com/dc@2.1.10/dc.js')
 
 var cf = crossfilter()
 
